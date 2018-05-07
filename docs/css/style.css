@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+}
+
+/* ..........................Header................ */
+
+.header_bg {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 888px;
+    position: relative;
+    padding-top: 170px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+}
+
+.navigation {
+    margin-bottom: 70px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 145px;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.header_heading {
+    width: 420px;
+    color: #FFF;
+}
+
+.header_heading h1 {
+    font-size: 52px;
+    font-weight: normal;
+    line-height: 1.192;
+    text-shadow: 0 1px 1px rgba(46, 107, 130, 0.4);
+
+}
+
+.header_heading p {
+    margin-top: 10px;
+    width: 380px;
+    font-size: 14px;
+    line-height: 1.786;
+    text-shadow: 0 1px 1px rgba(53, 125, 152, 0.4);
+
+}
+
+/* .....................Main................. */
+
+.col_left {
+    float: left;
+    width: 310px;
+    border-right: 1px solid #eaeaea;
+    padding-right: 40px;
+    padding-bottom: 135px;
+}
+
+.col_right {
+    float: right;
+    width: 590px;
+}
+
+.col_left p {
+    font-size: 20px;
+    color: rgb(254, 153, 42);
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.col_right h2 {
+    font-size: 24px;
+    color: rgb(254, 153, 42);
+    line-height: 1;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.col_right p {
+    font-size: 14px;
+    color: rgb(115, 124, 133);
+    line-height: 2;
+}
+
+.col_right p a {
+    color: rgb(115, 124, 133);
+    text-decoration: underline;
+}
+
+.body_padding {
+    padding-top: 110px;
+    padding-bottom: 85px;
+}
+
+/*........... Footer...............*/
+
+.footer_bg {
+    padding-top: 45px;
+    padding-bottom: 180px;
+    background-color: #e66e6b;
+    background-image: url(../img/bg_footer.jpg);
+    background-repeat: repeat;
+    color: #fff;
+    font-size: 14px;
+}
+
+.col_contacts {
+    float: left;
+    width: 230px;
+    margin-right: 80px;
+}
+
+
+
+.col_contacts ul {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.col_contacts ul li {
+    line-height: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.col_menu {
+    float: left;
+    width: 110px;
+    margin-right: 20px;
+}
+
+.col_menu:last-child {
+    margin-right: 0;
+}
+
+.col_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.col_menu ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_bg h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_bg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_bg a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
